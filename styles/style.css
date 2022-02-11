@@ -1,15 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 body{
     background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit',sans-serif;
 }
 .img-eq{
-    width: 10vw;
-    height: 10vh;
+    width: 100%;    
+    height: max-content;
+    border-radius: 5px;
 }
 .card{
     background-color: hsl(216, 50%, 16%);
-    width: 30vw;
+    width: 20vw;
     margin: auto;
+    border-radius: 10px;
+    height: fit-content;
+    margin-top: 10vh;
+    padding: 15px;
 }
 .attribution{
     float: right;
+} 
+.title{
+    color: hsl(0, 0%, 100%);
+}  
+.title:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+hr{
+    height: 1px;
+    background-color: #fff;
+}
+.eth-text{
+    color:hsl(178, 100%, 50%);
+}
+.days-left{
+    float: right;
+}
+.img-avatar{
+    width: 10px;
+    max-height: 10px;
+}
+.nombre-creador{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
 }
