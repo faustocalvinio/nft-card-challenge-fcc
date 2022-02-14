@@ -15,12 +15,10 @@ body{
     margin: auto;
     border-radius: 10px;
     height: fit-content;
-    margin-top: 10vh;
+    margin-top: 7vh;
     padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.301) 10px 10px 20px 10px;
 }
-.attribution{
-    float: right;
-} 
 .title{
     color: hsl(0, 0%, 100%);
 }  
@@ -37,12 +35,36 @@ hr{
 }
 .days-left{
     float: right;
+    color:hsl(220, 15%, 55%);
 }
 .img-avatar{
-    width: 10px;
-    max-height: 10px;
+    width: 30px;
+    height: 30px;
+    border:  2px solid white ;
+    border-radius: 20px;
 }
 .nombre-creador{
     cursor: pointer;
     color: hsl(178, 100%, 50%);
+}
+.attribution{
+    float: right;   
+    margin-top: 4vh;
+    margin-right: 10%;
+    font-weight: 500;
+    color:rgb(155, 155, 155);
+}
+.attribution a{
+    
+    color: #51009c;
+}
+.attribution a:visited{
+    color: #ff000081;
+}
+.subtitle{
+    color:hsl(220, 15%, 55%);
+}
+.creation-of{
+    color:hsl(220, 15%, 55%);
+    
 }
