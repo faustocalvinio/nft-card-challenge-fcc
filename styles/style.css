@@ -12,12 +12,13 @@ body{
 .card{
     background-color: hsl(216, 50%, 16%);
     width: 20vw;
-    margin: auto;
+    margin: 7vh auto;
     border-radius: 10px;
     height: fit-content;
-    margin-top: 7vh;
-    padding: 15px;
+    
+    padding: 22px;
     box-shadow: rgba(0, 0, 0, 0.301) 10px 10px 20px 10px;
+    height: fit-content;
 }
 .title{
     color: hsl(0, 0%, 100%);
@@ -26,16 +27,14 @@ body{
     color:hsl(178, 100%, 50%);
     cursor: pointer;
 }
-hr{
-    height: 1px;
-    background-color: #fff;
-}
 .eth-text{
     color:hsl(178, 100%, 50%);
+    font-weight: 600;
 }
 .days-left{
     float: right;
     color:hsl(220, 15%, 55%);
+    font-weight: 400;
 }
 .img-avatar{
     width: 30px;
@@ -44,6 +43,9 @@ hr{
     border-radius: 20px;
 }
 .nombre-creador{
+    color: #ffffff;
+}
+.nombre-creador:hover{
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
@@ -53,6 +55,7 @@ hr{
     margin-right: 10%;
     font-weight: 500;
     color:rgb(155, 155, 155);
+    
 }
 .attribution a{
     
@@ -63,8 +66,29 @@ hr{
 }
 .subtitle{
     color:hsl(220, 15%, 55%);
+    font-size: 18px;
 }
 .creation-of{
     color:hsl(220, 15%, 55%);
     
+}
+.jules{
+    border-top: 1px solid hsla(219, 15%, 55%, 0.288);
+    margin-top: 10px;
+    height: fit-content;
+    
+}
+
+@media (max-width:500px){
+
+    .card{
+        width: 80%;
+        border-radius: 15px;
+    }
+    .attribution{
+        display: none;
+    }
+    .img-eq{
+        border-radius: 12px;
+    }
 }
