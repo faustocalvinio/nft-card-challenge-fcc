@@ -11,14 +11,13 @@ body{
 }
 .card{
     background-color: hsl(216, 50%, 16%);
-    width: 20vw;
-    margin: 7vh auto;
+    width: 23vw;
+    margin: auto;
     border-radius: 10px;
-    height: fit-content;
-    
+    height: fit-content;    
     padding: 22px;
     box-shadow: rgba(0, 0, 0, 0.301) 10px 10px 20px 10px;
-    height: fit-content;
+    height: fit-content;    
 }
 .title{
     color: hsl(0, 0%, 100%);
@@ -55,7 +54,7 @@ body{
     margin-right: 10%;
     font-weight: 500;
     color:rgb(155, 155, 155);
-    
+    display: none;
 }
 .attribution a{
     
@@ -70,13 +69,12 @@ body{
 }
 .creation-of{
     color:hsl(220, 15%, 55%);
-    
+        
 }
 .jules{
     border-top: 1px solid hsla(219, 15%, 55%, 0.288);
     margin-top: 10px;
-    height: fit-content;
-    
+    height: fit-content;    
 }
 
 @media (max-width:500px){
