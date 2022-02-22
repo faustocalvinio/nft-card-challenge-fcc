@@ -18,6 +18,7 @@ body{
     padding: 22px;
     box-shadow: rgba(0, 0, 0, 0.301) 10px 10px 20px 10px;
     height: fit-content;    
+    
 }
 .title{
     color: hsl(0, 0%, 100%);
@@ -29,11 +30,15 @@ body{
 .eth-text{
     color:hsl(178, 100%, 50%);
     font-weight: 600;
+    font-size: .9rem;
+    
 }
+
 .days-left{
     float: right;
     color:hsl(220, 15%, 55%);
     font-weight: 400;
+    margin-left: .3rem;
 }
 .img-avatar{
     width: 30px;
@@ -41,10 +46,10 @@ body{
     border:  2px solid white ;
     border-radius: 20px;
 }
-.nombre-creador{
+.author-name{
     color: #ffffff;
 }
-.nombre-creador:hover{
+.author-name:hover{
     cursor: pointer;
     color: hsl(178, 100%, 50%);
 }
@@ -68,13 +73,24 @@ body{
     font-size: 18px;
 }
 .creation-of{
-    color:hsl(220, 15%, 55%);
-        
+    color:hsl(220, 15%, 55%);        
 }
-.jules{
-    border-top: 1px solid hsla(219, 15%, 55%, 0.288);
-    margin-top: 10px;
-    height: fit-content;    
+.container-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    
+    margin-top: .6rem;
+}
+.container-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -0.6rem; 
+    /* margin-bottom: 1rem;  */
+    padding: 7px 0px;
+    border-bottom: 1px solid hsla(219, 15%, 55%, 0.253);
 }
 
 @media (max-width:500px){
