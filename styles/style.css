@@ -24,8 +24,8 @@ body{
     opacity: 1;
 }
 .img-eq{
-    width: 250px;
-    border-radius: 6px;
+    width: 260px;
+    border-radius: 6px;    
 }
 
 .card{
@@ -40,6 +40,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);    
+    min-height: 70vh;
 }
 .title{
     color: hsl(0, 0%, 100%);
@@ -119,14 +120,14 @@ body{
     border-bottom: 1px solid hsla(219, 15%, 55%, 0.253);
 }
 .blue-bg{
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     background-color: hsla(178, 100%, 50%, 0.452);
     position: absolute;
     border-radius: 6px;
     top: 50%;
     left: 50%;
-    transform: translate(-51%,-232px);
+    transform: translate(-49%,-238px);
     cursor: pointer;
 }
 @media (max-width:400px){
