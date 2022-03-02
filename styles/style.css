@@ -9,10 +9,11 @@ body{
     align-items: center;
 }
 .card{
-    width: 20rem;
+    width: 19rem;
     background-color: hsl(216, 50%, 16%);
     padding: 1.5rem;
     border-radius: 1rem;
+    box-shadow:none;
 }    
 .img-eq{
     width:100%;  
