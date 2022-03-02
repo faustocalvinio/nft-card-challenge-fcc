@@ -25,7 +25,7 @@ body{
     height: 19rem;
     background-color: #7fffd460;
     position: absolute;
-    transform: translate(0,-19rem);
+    transform: translate(0,-19.3rem);
     opacity: 0;
     border-radius: .5rem;
 
@@ -121,4 +121,9 @@ body{
 }
 .attribution a:visited{
     color: #7fffd4;
+}
+@media (max-width:500px){
+    .card{
+        width: 90%;
+    }
 }
