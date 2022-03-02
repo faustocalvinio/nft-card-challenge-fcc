@@ -3,19 +3,18 @@
 body{
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit',sans-serif;
-}
-.card{
-    width: 22vw;
-    background-color: hsl(216, 50%, 16%);
-    padding: 1.5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 1rem;
-    /* border: 1px solid red; */
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 
 }
+.card{
+    width: 20rem;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}    
 .img-eq{
     width:100%;
     border-radius: .5rem;
@@ -41,7 +40,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    border-bottom: 1px solid hsl(220, 15%, 55%);
+    border-bottom: 1px solid hsla(219, 15%, 55%, 0.24);
     padding: 1rem 0px;
     /* border: 1px solid red; */
     align-self: center;
@@ -67,6 +66,7 @@ body{
     display: flex;
     width: 8em;
     gap: .4em;
+    float: right;
 }
 .days-cont img{
     width: 1.2em;
@@ -96,6 +96,7 @@ body{
     height: fit-content;
     border: 1px solid #ffffff;
     border-radius: 50%;
+    padding-top:10px;
 }
 .author-name{
     color: hsl(0, 0%, 100%);
