@@ -7,7 +7,6 @@ body{
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-
 }
 .card{
     width: 20rem;
@@ -18,12 +17,10 @@ body{
 .img-eq{
     width:100%;
     border-radius: .5rem;
-    /* border: 1px solid red; */
 
 }
 .title{
     color:hsl(0, 0%, 100%);
-    /* border: 1px solid red; */
     font-size: 22px;
 }
 .title:hover{
@@ -32,23 +29,20 @@ body{
 }
 .subtitle{
     color: hsl(220, 15%, 55%);
-    /* border: 1px solid red; */
     font-size: 18px;
 
 }
 .container-details{
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
+    gap: 7.3rem;        
+    width: 100%;
+    /* border: .1px solid red;    */
     border-bottom: 1px solid hsla(219, 15%, 55%, 0.24);
-    padding: 1rem 0px;
-    /* border: 1px solid red; */
-    align-self: center;
-
+    padding: 0 0 1rem;
+    
 }
 .container-eth{
     display: flex;
-    /* border: 1px solid red; */
     width: 7em;
     gap: .4em;
 }
@@ -58,11 +52,9 @@ body{
 }
 .eth-text{
     color:hsl(178, 100%, 50%);
-    /* border: 1px solid red; */
     font-weight: bold;
 }
 .days-cont{
-    /* border: 1px solid red; */
     display: flex;
     width: 8em;
     gap: .4em;
@@ -74,21 +66,20 @@ body{
 }
 .days-left{
     color: hsl(220, 15%, 55%);
-    /* border: 1px solid red; */
     font-weight: bold;
 }
 .container-author{
     display: flex;  
     padding-top: .7em;  
     gap: 1em;
-    /* border: 1px solid red; */
     align-self: center;
-    
+    width: 100%;
+    height: 100%;
+    align-items: center;
 }
 .creation-of{
     color: hsl(220, 15%, 55%);
     font-size: 1em;
-    /* border: 1px solid red; */
 
 }
 .img-avatar{
@@ -96,7 +87,6 @@ body{
     height: fit-content;
     border: 1px solid #ffffff;
     border-radius: 50%;
-    padding-top:10px;
 }
 .author-name{
     color: hsl(0, 0%, 100%);
