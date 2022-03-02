@@ -13,36 +13,103 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 1rem;
-}
-.title{
-    color:hsl(0, 0%, 100%);
-}
-.subtitle{
-    color: hsl(220, 15%, 55%);
-}
-.container-details{
-    display: flex;
-    gap: 30px;
-    border-bottom: 1px solid #fff;
-}
-.container-author{
-    display: flex;    
-}
-.eth-text{
-    color:hsl(178, 100%, 50%);
-}
-.creation-of{
-    color: hsl(220, 15%, 55%);
-}
-.days-left{
-    color: hsl(220, 15%, 55%);
+    /* border: 1px solid red; */
+
 }
 .img-eq{
     width:100%;
     border-radius: .5rem;
+    /* border: 1px solid red; */
+
+}
+.title{
+    color:hsl(0, 0%, 100%);
+    /* border: 1px solid red; */
+
+}
+.title:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.subtitle{
+    color: hsl(220, 15%, 55%);
+    /* border: 1px solid red; */
+
+}
+.container-details{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border-bottom: 1px solid hsl(220, 15%, 55%);
+    padding: 1rem 0px;
+    /* border: 1px solid red; */
+    align-self: center;
+
+}
+.container-eth{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 7em;
+    gap: .4em;
+}
+.container-eth img{
+    width: .7em;
+    height: 1.2em;
+}
+.eth-text{
+    color:hsl(178, 100%, 50%);
+    /* border: 1px solid red; */
+
+}
+.days-cont{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 8em;
+    gap: .4em;
+}
+.days-cont img{
+    width: 1.2em;
+    
+}
+.days-left{
+    color: hsl(220, 15%, 55%);
+    /* border: 1px solid red; */
+
+}
+.container-author{
+    display: flex;  
+    padding-top: .7em;  
+    gap: 1em;
+    /* border: 1px solid red; */
+    align-self: center;
+}
+.creation-of{
+    color: hsl(220, 15%, 55%);
+    font-size: .8em;
+    /* border: 1px solid red; */
+
 }
 .img-avatar{
-    width:30px;
+    width:2rem;
+    height: fit-content;
     border: 2px solid #ffffff;
     border-radius: 50%;
+}
+.author-name{
+    color: hsl(0, 0%, 100%);
+}
+.author-name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.attribution{
+    position: absolute;
+    top: 95%;
+    color: #fff;
+}
+.attribution a{
+    color: #7fffd4;
+}
+.attribution a:visited{
+    color: #7fffd4;
 }
