@@ -54,7 +54,7 @@ body{
     gap: 5rem;        
     width: 100%;    
     border-bottom: 1px solid hsla(219, 15%, 55%, 0.24);
-    padding: .7rem 0 1.6rem;    
+    padding: .6rem 0 1.6rem;    
 }
 .container-eth{
     display: flex;
@@ -127,7 +127,7 @@ body{
         width: 75%;
     }
     .img-eq{
-        width: 17rem;
+        width: 16rem;
         height: 16.7rem;
     }
     .container-details{
@@ -141,7 +141,7 @@ body{
         line-height: 1.5;
     }
     .bg-blue{
-        width: 17rem;
+        width: 16rem;
         height: 16.7rem;
     }
     .bg-blue:hover{
