@@ -105,6 +105,7 @@ body{
 }
 .author-name{
     color: hsl(0, 0%, 100%);
+    font-weight: 600;
 }
 .author-name:hover{
     color: hsl(178, 100%, 50%);
