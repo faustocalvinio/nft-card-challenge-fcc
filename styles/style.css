@@ -28,7 +28,6 @@ body{
     transform: translate(0,-19.3rem);
     opacity: 0;
     border-radius: .5rem;
-
 }
 .bg-blue:hover{
     opacity: 1;
