@@ -54,7 +54,7 @@ body{
     gap: 5rem;        
     width: 100%;    
     border-bottom: 1px solid hsla(219, 15%, 55%, 0.24);
-    padding: 0rem 0 1.5rem;    
+    padding: 1rem 0 1.9rem;    
 }
 .container-eth{
     display: flex;
@@ -77,7 +77,7 @@ body{
 }
 .days-cont img{
     width: 1.1rem;
-    height: 20px;    
+    height: 18px;    
 }
 .days-left{
     color: hsl(220, 15%, 55%);
@@ -95,7 +95,7 @@ body{
 .creation-of{
     color: hsl(220, 15%, 55%);
     font-size: 1em;
-
+   font-weight: 600;
 }
 .img-avatar{
     width:2rem;
@@ -141,10 +141,10 @@ body{
         line-height: 1.5;
     }
     .bg-blue{
-        width: 18rem;
-        height: 18rem;
+        width: 17rem;
+        height: 16.7rem;
     }
     .bg-blue:hover{
-        transform: translate(0,-18rem);
+        transform: translate(0,-17rem);
     }
 }
