@@ -47,7 +47,7 @@ body{
 .subtitle{
     color: hsl(220, 15%, 55%);
     font-size: 18px;
-
+    line-height: 1.5;
 }
 .container-details{
     display: flex;
